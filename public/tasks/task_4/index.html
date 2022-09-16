@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>О себе</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      header {
+        text-align: center;
+      }
+      body {
+        padding: 0 30px;
+        font-size: 14px;
+        line-height: 22px;
+        font-family: "Roboto Condensed", sans-serif;
+        color: #222222;
+        background-color: #ded5d5;
+      }
+      main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        padding: 40px;
+        width: 100%;
+        background-color: black;
+      }
+      h1 {
+        font-size: 20px;
+        line-height: normal;
+      }
+      h2 {
+        font-size: 16px;
+        font-weight: 500;
+      }
+      article {
+        text-align: left;
+        background-color: #bfb8b8;
+        margin-left: 10px;
+        padding: 10px;
+      }
+      img {
+        height: 15%;
+        width: 10%;
+      }
+      div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .img {
+        height: 60px;
+        width: 60px;
+      }
+      .card1 {
+        text-align: center;
+      }
+      .tlg {
+        margin-left: 10px;
+      }
+      .vk {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Привет, меня зовут Андрей</h1>
+      <img src="./img/photo.png" alt="мое фото" />
+      <section>
+        <p>+7 (996) 376 8129</p>
+        <p>Trykin-1996@mail.ru</p>
+      </section>
+    </header>
+
+    <main>
+      <h1>О себе:</h1>
+      <article class="card1">
+        <h2>Образование:</h2>
+        <h3>
+          Сибирский государственный университет<br />
+          телекоммуникаций и информатики
+        </h3>
+        <p>
+          Факультет мобильной радиосвязи и мультимедия.<br />Техносферная
+          безопасность.
+        </p>
+      </article>
+
+      <article>
+        <h2>Опыт в программировании:</h2>
+        <ul>
+          <li>
+            Прохожу курс "Фронтенд - Разработчик #1" в
+            <a href="https://htmlacademy.ru">HTML Academy</a>
+          </li>
+          <li>Для задач использую HTML, CSS, JS.</li>
+          <li>Пишу код в VS Code.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>Увлечения:</h2>
+        <ul>
+          <li>Изучаю английский и смотрю сериалы в оригинале;</li>
+          <li>Увлекаюсь спортом: бег, велосипед, сноуборд;</li>
+          <li>Люблю кофе и все знаю о нем.</li>
+        </ul>
+      </article>
+    </main>
+    <footer>
+      <div class="img-align">
+        <a href="https://vk.com/trykin96">
+          <img class="img vk" src="./img/VK.png" alt="VK" />
+        </a>
+        <a href="https://t.me/lilMC_lovin">
+          <img class="img tlg" src="./img/telegram.png" alt="telegram" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
